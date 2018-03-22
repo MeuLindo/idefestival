@@ -1,0 +1,319 @@
+
+
+/* ********************
+		FONTES
+********************** */
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fontes/Brandon_med.woff2') format('woff2'),
+         url('../fontes/Brandon_med.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../fontes/Brandon_bld.woff2') format('woff2'),
+         url('../fontes/Brandon_bld.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'black';
+    src: url('../fontes/Brandon_blk.woff2') format('woff2'),
+         url('../fontes/Brandon_blk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ********************
+		Resets
+********************** */
+
+@media only screen and (min-width: 571px) and (max-width: 868px) {
+	.full{
+		padding-top:33px;
+    	background-position: -67px 0 !important; 
+	}
+	.logo{
+		width: 253px !important;
+    margin-left: 120px !important;
+    margin-top: 0 !important;
+	}
+	.col-logo{
+		height: 700px;
+	}
+	iframe.video{
+		margin-top:40px !important;
+	}
+
+
+	.col-dir{
+		padding-top:40px !important;
+	}
+	.full{
+		height: 2500px !important;
+	}
+	.responsivo{
+		width: 100%;
+	}
+	.txtC{
+		text-align: center !important;
+		height:250px;
+	}
+	.asdf{
+		display: none !important;
+	}
+	h2{
+		font-size:17px !important;
+		letter-spacing: 8px;
+	}
+	.comoChegar{
+		padding-top:15px !important;
+	}
+
+	.rs .col-md-4{
+		margin-bottom:15px;
+	}
+	small{
+		font-size:20px !important;
+	}
+	.col-dir{
+		height: 950px;
+	}
+	body{
+		overflow-x: hidden;
+	}
+
+}
+
+
+@media only screen and (max-width: 570px) {
+	.full{
+		padding-top:33px;
+    	background-position: -67px 0 !important; 
+	}
+	.logo{
+		width: 173px !important;
+    margin-left: 95px !important;
+	}
+	.col-logo{
+		height: 400px;
+	}
+	iframe.video{
+		margin-top:40px !important;
+	}
+
+
+	.col-dir{
+		padding-top:40px !important;
+	}
+	.full{
+		height: 2500px !important;
+	}
+	.responsivo{
+		width: 100%;
+	}
+	.txtC{
+		text-align: center !important;
+		height:150px;
+	}
+	.asdf{
+		display: none !important;
+	}
+	h2{
+		font-size:17px !important;
+		letter-spacing: 8px;
+	}
+	.comoChegar{
+		padding-top:7px !important;
+	}
+
+	.rs .col-md-4{
+		margin-bottom:15px;
+	}
+	small{
+		font-size:20px !important;
+	}
+	.col-dir{
+		height: 850px;
+	}
+	body{
+		overflow-x: hidden;
+	}
+
+}	
+
+
+*{
+	text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+
+}
+ul li{
+	list-style:none;
+
+}
+
+h2{
+	font-size: 30px;
+	font-family: 'black';
+	letter-spacing: 15px;
+	line-height: 160%;
+	text-transform: uppercase;
+}
+
+
+/* ********************
+		Class
+********************** */
+
+.right{float:right;}
+.left{float:right;}
+
+.mLeft50{margin-left:50px;}
+
+.height100{height:100px;float:left;width:100%;}
+
+/* ********************
+		FULL
+********************** */
+h2 a{
+	color:#FFB500 !important;
+	text-decoration: none;
+}
+h2 a:visited{
+	color:#fff;
+}
+h2 a:hover{
+	color:#fff;
+}
+
+.full{
+	height: 1200px;
+	background: url(../imagens/bg_full.jpg) no-repeat top center;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo{
+	margin:100px 0 0 35px;
+	width: 250px;
+	float:left;
+}
+
+.col-logo{
+	text-align: center;
+}
+.col-logo span{
+	width: 100%;
+	float:left;
+	font-family: 'regular';
+	color:#fff;
+	font-size:20px;
+	margin:30px 0;
+}
+.col-logo a{
+	color:#fff;
+	font-family: 'black';
+	font-size:31px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4c4b+1,940304+100 */
+	background: #ff4c4b; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff4c4b 1%, #940304 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff4c4b 1%,#940304 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff4c4b 1%,#940304 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4b', endColorstr='#940304',GradientType=0 ); /* IE6-9 */
+	
+	border-radius: 25px;
+	padding:20px 40px;
+	border:1px solid #911611;
+	line-height: 100%;
+}
+.col-logo a:hover{
+	background: #b5155f;
+	color:#fff;
+}
+
+.col-logo a:visited{
+	color:#fff !important;
+}
+.col-logo a:active{
+	color:#fff !important;
+}
+
+.col-dir{
+	padding-top:260px;
+}
+
+.col-dir iframe{
+	margin-bottom:30px;
+}
+
+.col-dir div p{
+	font-size:37px;
+	color:#fff;
+	font-family: 'regular';
+	text-transform: uppercase;
+	line-height: 130%;
+
+}
+.col-dir div p span{
+	font-family: 'bold';
+	font-size:34px;
+
+}
+.col-dir div p small{
+	font-family: 'regular';
+	font-size:25px;
+
+}
+.col-dir div b{
+	font-family: 'black';
+	font-size:48px;
+
+}
+
+.rs{
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+/* ********************
+		Footer
+********************** */
+
+.comoChegar{
+	height: 89px;
+	background: url(../imagens/bg_map.png) no-repeat top center;
+	text-align: center;
+	font-size:40px;
+	color:#fff;
+	padding-top:20px;
+}
+.txtCenter{
+	text-align: center;
+}
+
+
+.rodape{
+	height: 65px;
+	background: url(../imagens/bg_footer.png) no-repeat top center;
+	text-align: center;
+	font-size:12px;
+	color:#000;
+	padding-top:25px;
+}
+
+
+
+
+
+
+
+
